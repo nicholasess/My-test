@@ -4,14 +4,15 @@ Projeto para melhorar minhas skills
 
 # Rodando o projeto
 
+### Instalação YARN
+
+- Devido está usando yarn Workspaces, precisamos utilizilar o yarn para a instalação.
+[Yarn install](https://yarnpkg.com/en/docs/install)
+
 Para iniciar o projeto: `yarn install`
 
 Depois a instalação das dependência rode `yarn start` no diretório padão
 
-### Instalação YARN
-
- - Devido está usando yarn Workspaces, precisamos utilizilar o yarn para a instalação.
- - [Yarn install](https://yarnpkg.com/en/docs/install)
 
 # dependência usadas no projeto
 
