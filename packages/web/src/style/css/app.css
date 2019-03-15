@@ -1,0 +1,212 @@
+@keyframes transitionTweet {
+    from  {right: 5px; display: none; transition: all 2s linear}
+    to {right: 30px; display: block; transition: all 2s linear}
+}
+
+@keyframes transitionTweetFalse {
+    from {right: 30px; display: block; transition: all 2s linear}
+    to {right: 5px; background-color: transparent; display:none; transition: all 2s linear}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute
+
+}
+
+.telao{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    border: 4px solid black;
+    position: relative;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 4px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.7s linear;
+    margin-bottom: 10px
+}
+
+.subtitle{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.7s linear;
+    margin-bottom: 10px
+}
+
+.logoGlobo{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
+}
+.logoGlobo img{
+    height: 110px;
+    width: 110px
+}
+
+.tweetsF{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    background-color: #1E2031;
+    height: 180px;
+    width: 350px;
+    border-radius: 5px;
+    display: none;
+}
+
+.tweetsV{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    background-color: #1E2031;
+    height: 180px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.comentarioHeader{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.avatar{
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+
+}
+
+.avatar img {
+    height: 45px;
+    width: 45px;
+}
+.name{
+    margin-left: 8px;
+    color: darkgray
+}
+
+.name div:first-child{
+    color: 'gray';
+    opacity: 0.5
+}
+
+.comentarioBody{
+    height: 90px;
+    display: flex;
+    width: 100%;
+}
+
+.comentarioBody div{
+    display: flex;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+    width: 80%;
+    word-wrap: break-word;
+    height: 90px;
+
+}
+
+/* CMS */
+
+.containerCMS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.input{
+    width: 80%;
+    height: 50px;
+    margin: 10px 0;
+    border: 3px solid black;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
+    font-size: 1em;
+}
+
+.btn{
+    width: 20%;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    outline-color: none;
+    outline: none;
+    font-size: 1em
+}
+
+.containerUsers{
+    background-color: lightgray;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px
+
+}
+
+.containerUsers div{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black
+}
+
+.containerUsers div:first-child{
+    margin-top: 10px;
+}
+
+.containerBuscar{
+    width: 50%;
+}
+
+.btnComentario{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
