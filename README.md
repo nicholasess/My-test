@@ -9,6 +9,8 @@ Projeto para melhorar minhas skills
 - Devido está usando yarn Workspaces, precisamos utilizilar o yarn para a instalação.
 [Yarn install](https://yarnpkg.com/en/docs/install)
 
+### Rodando no seu PC
+
 - Para clonar o projeto `git clone https://github.com/Wellers0n/My-test.git`
 - Entrar na pasta `cd My-test/`
 - Para instalar dependência do projeto: `yarn install`
