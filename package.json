@@ -10,5 +10,9 @@
   "dependencies": {
     "lerna": "^3.13.1"
   },
-  "name": "globo"
+  "workspaces": {
+    "packages": [
+      "packages/*"
+   ]
+  "name": "test"
 }
