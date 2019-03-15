@@ -17,7 +17,7 @@ Projeto para melhorar minhas skills
 - Depois da instalação das dependências rode `yarn start` no diretório padão
 
 
-# dependência usadas no projeto
+# Dependência usadas no projeto
 
 [ReactJS](https://reactjs.org/)<br/>
 [KoaJS](https://koajs.com/)<br/>
