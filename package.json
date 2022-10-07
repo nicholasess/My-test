@@ -5,15 +5,19 @@
     "start:server": "lerna run start --scope /packages/server --stream",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "lerna": "^3.13.1"
+    "lerna": "^5.5.2",
+    "@snyk/protect": "latest"
   },
   "workspaces": {
     "packages": [
       "packages/*"
-   ]
+    ]
   },
-  "name": "test"
+  "name": "test",
+  "snyk": true
 }
