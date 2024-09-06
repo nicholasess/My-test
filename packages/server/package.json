@@ -7,8 +7,8 @@
     "start": "nodemon --exec babel-node ./server.js"
   },
   "dependencies": {
-    "mongoose": "^5.4.19",
-    "socket.io": "^2.2.0"
+    "mongoose": "^5.7.3",
+    "socket.io": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
